@@ -236,7 +236,7 @@ export const workExperience = [
     title: "NFT Artist",
     desc: "Created unique digital art pieces for Coullax (Pvt) Ltd, contributing to their NFT collection.",
     className: "md:col-span-2",
-    thumbnail: "/nft.png", // Original image path
+    thumbnail: "/NFT.png", // Original image path
   },
   {
     id: 2,
