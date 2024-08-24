@@ -1,5 +1,4 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
@@ -11,22 +10,20 @@ const Footer = () => {
         <img
           src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50 "
+          className="w-full h-full opacity-50"
         />
       </div>
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Ready to elevate <span className="text-purple">your</span> robotics and AI innovations?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Let's collaborate and make your vision a reality. Reach out to discuss how we can use my expertise in robotics, machine learning, and digital design.
         </p>
         <a href="mailto:yasirunipunbasnayake@gmail.com">
           <MagicButton
-            title="Let's get in touch"
+            title="Let's connect"
             icon={<FaLocationArrow />}
             position="right"
           />

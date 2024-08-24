@@ -20,7 +20,7 @@ export const gridItems = [
   {
     id: 2,
     title:
-      "Adapting to Global Adapting to Robotics and AI-Driven Automation Needs",
+      "Adapting to Robotics and AI-Driven Automation Needs",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",

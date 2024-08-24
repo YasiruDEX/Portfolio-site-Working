@@ -55,7 +55,7 @@ const Hero = () => {
             the University of Moratuwa.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Explore My Work"
               icon={<FaMicrochip />}

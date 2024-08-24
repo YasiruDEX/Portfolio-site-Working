@@ -9,7 +9,7 @@ const World = dynamic(() => import("./Globe").then((m) => m.World), {
 
 const GridGlobe = () => {
   const globeConfig = {
-    pointSize: 4,
+    pointSize: 6,
     globeColor: "#062056",
     showAtmosphere: true,
     atmosphereColor: "#FFFFFF",
