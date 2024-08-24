@@ -133,7 +133,7 @@ const Card = ({
   title: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
-  des: string;
+  des: React.ReactNode;
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
