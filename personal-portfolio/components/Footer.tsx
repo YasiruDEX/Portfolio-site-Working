@@ -19,7 +19,7 @@ const Footer = () => {
           Ready to elevate <span className="text-purple">your</span> robotics and AI innovations?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Let's collaborate and make your vision a reality. Reach out to discuss how we can use my expertise in robotics, machine learning, and digital design.
+          Let&apos;s collaborate and make your vision a reality. Reach out to discuss how we can use my expertise in robotics, machine learning, and digital design.
         </p>
         <a href="mailto:yasirunipunbasnayake@gmail.com">
           <MagicButton
