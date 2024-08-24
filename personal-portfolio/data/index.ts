@@ -91,7 +91,7 @@ export const projects = [
     id: 2,
     title: "TechBot: STM32/Vision-based Robot",
     des: "An innovative robot with a custom-designed 4-layer PCB, STM32F405VGT6 microcontroller, and Raspberry Pi for advanced machine vision and navigation tasks.",
-    img: "/p2.svg", // original image
+    img: "/techbot.png", // original image
     iconLists: ["/stm32.svg", "/rapberrypi.svg", "/cubeide.png", "/pid.jpg"],
     link: "/project/techbot",
     githubUrl: "https://github.com/TechBotsSL",
@@ -100,7 +100,7 @@ export const projects = [
     id: 3,
     title: "Stable Diffusion Based Criminal Face Generation Platform",
     des: "AI-driven solution enhancing accuracy and efficiency in forensic facial synthesis, aiding law enforcement in suspect identification.",
-    img: "/p3.svg", // original image
+    img: "/decoders.png", // original image
     iconLists: [
       "/pytorch.png",
       "/huggingface.svg",
@@ -115,7 +115,7 @@ export const projects = [
     id: 4,
     title: "A Vision-Language Driven Navigation System with SLAM",
     des: "A SLAM-based navigation system utilizing vision-language inputs to guide a robot with natural language instructions and image feeds.",
-    img: "/p4.svg", // original image
+    img: "/vision.png", // original image
     iconLists: [
       "/ros.png",
       "/gazebo.png",
@@ -130,7 +130,7 @@ export const projects = [
     id: 5,
     title: "Ratatouille: A Fast Maze Traversing Micromouse",
     des: "Fast Maze-Traversing Micromouse navigating complex mazes autonomously using advanced sensors and algorithms.",
-    img: "/p1.svg", // original image
+    img: "/ratatouille.png", // original image
     iconLists: [
       "/solidworks.png",
       "/altium.jpg",
@@ -145,7 +145,7 @@ export const projects = [
     id: 6,
     title: "Cosmo Robot",
     des: "An ATMEGA2560-based robot showcasing precise line following, wall avoidance, ramp navigation, mechanical arm interaction, and more.",
-    img: "/p2.svg", // original image
+    img: "/cosmo.png", // original image
     iconLists: [
       "/arduino.svg.png",
       "/mechanicalarm.png",
