@@ -153,42 +153,59 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Stable Diffusion Based AI Criminal Face Generation Platform For Forensic Identification, out of 45 Projects.\nDeveloped an AI-driven solution using Stable Diffusion models to enhance forensic facial synthesis. This platform improves accuracy and efficiency in suspect identification by minimizing subjective interpretation and manual effort.",
+    name: "Aurora 24",
+    title: "1st Runner Up"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Earendel Pro Track: IoT-based Automated Telescope Tracker mount\nCreated an IoT-based telescope mount for automated celestial tracking. The system enhances stargazing with real-time updates, user-friendly controls, and educational value, integrating various technologies for improved astronomical experiences.",
+    name: "SLIOT Challenge 2023 - Open Category IOT Challenge",
+    title: "Finalists"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "TechBot: STM32/Vision-based Robot, out of over 100 registrations.\nDeveloped an advanced robot featuring a custom 4-layer PCB with STM32F405VGT6 microcontroller and Raspberry Pi for machine vision. The robot demonstrates sophisticated navigation and vision capabilities.",
+    name: "Sri Lanka Robotic Challenge 2024 - University Category",
+    title: "Finalists"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Stable Diffusion Based Criminal Face Generation Platform For Forensic Identification, out of 150 entries.\nAI-driven platform leveraging Stable Diffusion models for forensic facial synthesis, enhancing law enforcement capabilities in suspect identification and minimizing manual effort and interpretation.",
+    name: "IEEE IES Generative AI International Hackathon",
+    title: "Finalists"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "NeuralVoice - A Neural Interface Communication Device for Individuals with Paralysis\nEmpower paralyzed individuals with a device decoding neural impulses for communication. Utilizing EMG signals, ML models, LLM refinement, and TTS, it enhances social integration and mental well-being.",
+    name: "Brainstorm 24",
+    title: "SemiFinalists"
+  },
+  {
+    quote: "FoodFocus: Smart Consumption Tracker\nTracks sugar, salt, and oil consumption, indicating daily limits. Using loadcells, ATmega, and sophisticated manipulation, it provides detailed reports and doubles as a clock with alarm features.",
+    name: "EN1190 - Engineering Design Project",
+    title: "Finalists"
+  },
+  {
+    quote: "Analog Function Generator\nGenerates sinusoidal, triangular, sawtooth, and PWM signals up to 20kHz with variable parameters. Designed using analog components, it features versatile waveform options and easy signal output.",
+    name: "EN2091: Laboratory Practice and Projects",
+    title: "Finalists"
+  },
+  {
+    quote: "IoT based Medicine Storage\nSmart Medibox designed to assist users in managing medication effectively. It integrates several features to ensure medication adherence and proper storage conditions.",
+    name: "EN2853 Embedded Systems and Applications project",
+    title: "Finalists"
+  },
+  {
+    quote: "Home energy monitoring system integrated with home automation\nAn interface designed to integrate with existing domestic electrical systems in Sri Lanka. Capable of monitoring individual power usage of outlets and integrating them with home automation.",
+    name: "IEEE Sri Lanka Challenge Sphere 2024 - Arduino Challenge",
+    title: "First Place Champions"
   },
 ];
+
+
 
 export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
+    img: "/arduino.svg",
     nameImg: "/cloudName.svg",
   },
   {
