@@ -223,28 +223,28 @@ export const workExperience = [
     title: "NFT Artist",
     desc: "Created unique digital art pieces for Coullax (Pvt) Ltd, contributing to their NFT collection.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg", // Original image path
+    thumbnail: "/nft.png", // Original image path
   },
   {
     id: 2,
     title: "3D Character/Animation Artist",
     desc: "Developed 3D characters and animations for VirtualPensor (Pvt) Ltd, enhancing visual storytelling.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg", // Original image path
+    thumbnail: "/charactor.png", // Original image path
   },
   {
     id: 3,
     title: "Freelance Seller",
     desc: "Provided freelance 3D art services through Fiverr, delivering customized designs and animations.",
     className: "md:col-span-2",
-    thumbnail: "/exp3.svg", // Original image path
+    thumbnail: "/fiverr.png", // Original image path
   },
   {
     id: 4,
     title: "3D Printing Business Owner",
     desc: "Managed BroocFab, a 3D printing business, offering custom 3D printed products and services.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg", // Original image path
+    thumbnail: "/broocfab.png", // Original image path
   },
 ];
 
