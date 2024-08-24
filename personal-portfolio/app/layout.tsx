@@ -6,9 +6,13 @@ import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metadata= {
   title: "Yasiru Basnayake",
-  description: "Unleash the innovation within you",
+  description: "Unleash the Power of Digital Transformation",
+  icons: {
+    rel: "icon",
+    href: "/icon.ico",
+  },
 };
 
 export default function RootLayout({
