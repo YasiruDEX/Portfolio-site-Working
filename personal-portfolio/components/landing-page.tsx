@@ -275,7 +275,7 @@ export function LandingPage() {
   )
 }
 
-function CodeIcon(props) {
+function CodeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -296,7 +296,7 @@ function CodeIcon(props) {
 }
 
 
-function CpuIcon(props) {
+function CpuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -325,7 +325,7 @@ function CpuIcon(props) {
 }
 
 
-function LaptopIcon(props) {
+function LaptopIcon(props: any) {
   return (
     <svg
       {...props}
@@ -345,7 +345,7 @@ function LaptopIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -367,7 +367,7 @@ function MenuIcon(props) {
 }
 
 
-function MicroscopeIcon(props) {
+function MicroscopeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -392,7 +392,7 @@ function MicroscopeIcon(props) {
 }
 
 
-function WifiIcon(props) {
+function WifiIcon(props: any) {
   return (
     <svg
       {...props}
@@ -414,7 +414,7 @@ function WifiIcon(props) {
   )
 }
 
-function ArrowUpIcon(props) {
+function ArrowUpIcon(props: any) {
   return (
     <svg
       {...props}
