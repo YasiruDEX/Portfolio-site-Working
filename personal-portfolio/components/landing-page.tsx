@@ -71,7 +71,7 @@ export function LandingPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Pursuing a Bachelor's degree in Electronic and Telecommunication Engineering at XYZ University.
+                    Pursuing a Bachelor&apos;s degree in Electronic and Telecommunication Engineering at XYZ University.
                     Expected graduation in 2024.
                   </p>
                   <ul className="mt-4 space-y-2 text-muted-foreground">
@@ -246,9 +246,22 @@ export function LandingPage() {
             </form>
           </div>
         </section>
+
+        <div className="fixed bottom-4 right-4">
+        <Button
+          variant="ghost"
+          size="icon"
+          className="bg-primary/30 text-primary-foreground hover:bg-primary/30 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring backdrop-blur-lg"
+          // onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          <ArrowUpIcon className="w-6 h-6" />
+          <span className="sr-only">Scroll to top</span>
+        </Button>
+      </div>
+
       </main>
       <footer className="bg-primary text-primary-foreground py-4 px-6 md:px-8 flex items-center justify-between">
-        <p className="text-sm">&copy; 2024 John Doe. All rights reserved.</p>
+        <p className="text-sm">&copy; 2024 Yasiru Basnayake. All rights reserved.</p>
         <div className="flex items-center gap-4">
           <Link href="#" className="hover:underline underline-offset-4" prefetch={false}>
             Privacy Policy
@@ -397,6 +410,26 @@ function WifiIcon(props) {
       <path d="M2 8.82a15 15 0 0 1 20 0" />
       <path d="M5 12.859a10 10 0 0 1 14 0" />
       <path d="M8.5 16.429a5 5 0 0 1 7 0" />
+    </svg>
+  )
+}
+
+function ArrowUpIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m5 12 7-7 7 7" />
+      <path d="M12 19V5" />
     </svg>
   )
 }
