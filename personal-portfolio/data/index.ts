@@ -178,24 +178,14 @@ export const testimonials = [
     title: "SemiFinalists"
   },
   {
-    quote: "FoodFocus: Smart Consumption Tracker\nTracks sugar, salt, and oil consumption, indicating daily limits. Using loadcells, ATmega, and sophisticated manipulation, it provides detailed reports and doubles as a clock with alarm features.",
-    name: "EN1190 - Engineering Design Project",
-    title: "Finalists"
-  },
-  {
-    quote: "Analog Function Generator\nGenerates sinusoidal, triangular, sawtooth, and PWM signals up to 20kHz with variable parameters. Designed using analog components, it features versatile waveform options and easy signal output.",
-    name: "EN2091: Laboratory Practice and Projects",
-    title: "Finalists"
-  },
-  {
-    quote: "IoT based Medicine Storage\nSmart Medibox designed to assist users in managing medication effectively. It integrates several features to ensure medication adherence and proper storage conditions.",
-    name: "EN2853 Embedded Systems and Applications project",
-    title: "Finalists"
-  },
-  {
     quote: "Home energy monitoring system integrated with home automation\nAn interface designed to integrate with existing domestic electrical systems in Sri Lanka. Capable of monitoring individual power usage of outlets and integrating them with home automation.",
     name: "IEEE Sri Lanka Challenge Sphere 2024 - Arduino Challenge",
     title: "First Place Champions"
+  },
+  {
+    quote: "HyperTalk: Real-time Bidirectional Sign Language Translation Tool/App",
+    name: "CodeSprint 24",
+    title: "SemiFinalists"
   },
 ];
 
