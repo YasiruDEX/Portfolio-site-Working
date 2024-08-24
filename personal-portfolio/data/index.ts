@@ -85,6 +85,7 @@ export const projects = [
       "/solidworks.png",
     ],
     link: "/project/luna",
+    githubUrl: "https://github.com/YasiruDEX/Vision-based-Restaurant-Robot-Working",
   },
   {
     id: 2,
@@ -93,6 +94,7 @@ export const projects = [
     img: "/p2.svg", // original image
     iconLists: ["/stm32.svg", "/rapberrypi.svg", "/cubeide.png", "/pid.jpg"],
     link: "/project/techbot",
+    githubUrl: "https://github.com/TechBotsSL",
   },
   {
     id: 3,
@@ -107,6 +109,7 @@ export const projects = [
       "/diffusion.webp",
     ],
     link: "/project/criminal-face-generation",
+    githubUrl: "https://github.com/AiGen-ENTC",
   },
   {
     id: 4,
@@ -121,6 +124,7 @@ export const projects = [
       "/mistral.png",
     ],
     link: "/project/vision-language-navigation",
+    githubUrl: "https://github.com/YasiruDEX/SLAM-Ros2-bot-Working",
   },
   {
     id: 5,
@@ -135,6 +139,7 @@ export const projects = [
       "/webots.png",
     ],
     link: "/project/ratatouille",
+    githubUrl: "https://github.com/Team-ratatouille/Ratatouille-bot-Working",
   },
   {
     id: 6,
@@ -148,6 +153,7 @@ export const projects = [
       "/solidworks.png",
     ],
     link: "/project/cosmo-robot",
+    githubUrl: "https://github.com/Cosmo-Robot",
   },
 ];
 
