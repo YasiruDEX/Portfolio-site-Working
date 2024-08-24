@@ -55,13 +55,22 @@ const Hero = () => {
             the University of Moratuwa.
           </p>
 
-          <a href="#projects">
-            <MagicButton
-              title="Explore My Work"
-              icon={<FaMicrochip />}
-              position="right"
-            />
-          </a>
+          <div className="flex space-x-4">
+            <a href="#projects">
+              <MagicButton
+                title="Explore My Work"
+                icon={<FaMicrochip />}
+                position="right"
+              />
+            </a>
+            <a href="/CV.pdf" download>
+              <MagicButton
+                title="Download CV"
+                icon={<FaMicrochip />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>

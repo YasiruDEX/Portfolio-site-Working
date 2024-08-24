@@ -76,7 +76,7 @@ export const projects = [
     id: 1,
     title: "LUNA: Vision-based Automated Restaurant Robot",
     des: "Developed a Restaurant Robot using ROS and Kinect2, featuring a custom Kalman-based food stabilization tray for autonomous navigation and interaction in restaurant environments.",
-    img: "/p1.svg", // original image
+    img: "/luna.png", // original image
     iconLists: [
       "/ros.png",
       "/kinect.webp",
