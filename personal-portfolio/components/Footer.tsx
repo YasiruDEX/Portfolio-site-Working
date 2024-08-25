@@ -16,10 +16,13 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to elevate <span className="text-purple">your</span> robotics and AI innovations?
+          Ready to elevate <span className="text-purple">your</span> robotics
+          and AI innovations?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Let&apos;s collaborate and make your vision a reality. Reach out to discuss how we can use my expertise in robotics, machine learning, and digital design.
+          Let&apos;s collaborate and make your vision a reality. Reach out to
+          discuss how we can use my expertise in robotics, machine learning, and
+          digital design.
         </p>
         <a href="mailto:yasirunipunbasnayake@gmail.com">
           <MagicButton
@@ -36,12 +39,16 @@ const Footer = () => {
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
-            <div
+            <a
+              href={info.link}
               key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
-            </div>
+              <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+                <img src={info.img} alt="icons" width={20} height={20} />
+              </div>
+            </a>
           ))}
         </div>
       </div>
