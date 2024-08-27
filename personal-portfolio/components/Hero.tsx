@@ -79,8 +79,6 @@ const Hero = () => {
           <img
             src="/image.jpg" // Replace with the actual image path
             alt="Hero Image"
-            layout="fill"
-            objectFit="cover"
             className="rounded-full shadow-lg"
           />
         </div>
